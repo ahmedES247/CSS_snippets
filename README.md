@@ -1,6 +1,6 @@
 # CSS_snippets
 
-CSS snippets / shortcuts for css 
+CSS snippets / shortcuts for CSS
 we don't have to write repeative code again and again
 just write shortcut and code will written automatically
 

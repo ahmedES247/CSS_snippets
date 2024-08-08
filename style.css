@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text{
+    margin-top: 100px;
+    display: grid;
+    place-items: center;
+}
+
+h4{
+    color: red;
+    margin-left: 820px;
+}
+
+
+
+
+

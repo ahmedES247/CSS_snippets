@@ -1,197 +1,270 @@
 {
-    "flex shortcut":{
-		"prefix": "map",
-		"body":
-		["*{",
-		"    margin: 0;",
-        "    padding: 0;",
-        "    box-sizing: border-box;",
-        "    font-family: 'Poppins', sans-serif;",
-		"}"],
-		"description": "margin and padding"
-	},
-
-	"flex shortcut 1":{
-		"prefix": "wah",
-		"body":["width: $1;",
-		"height: $2;"],
-		"description": "width and height"
-	},
-
-	"flex shortcut 2":{
-		"prefix": "i am noob",
-		"body": ["align-items: center;",
-		"justify-content: center;"],
-		"description": "kya coder banega re tu!"
-	},
+	// Place your snippets for css here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// },
+		"flex shortcut":{
+			"prefix": "map",
+			"body":
+			["*{",
+			"    margin: 0;",
+			"    padding: 0;",
+			"    box-sizing: border-box;",
+			"    font-family: 'Poppins', sans-serif;",
+			"}"],
+			"description": "margin and padding"
+		},
 	
-	"flex shortcut 3":{
-		"prefix": "am i noob",
-		"body": ["display: grid;",
-        "place-items: center;"],
-		"description": "ha! tu sach me noob hi hai"
-	},
-
-	"flex shortcut 4":{
-		"prefix": "dflex",
-		"body": ["display: flex;"],
-		"description": "display flex"
-	},
-
-	"flex shortcut 5":{
-		"prefix": "dgrid",
-		"body": ["display: grid;"],
-		"description": "display grid"
-	},
-
-	"flex shortcut 6":{
-		"prefix": "dblock",
-		"body": ["display: block;"],
-		"description": "display block"
-	},
-
-	"flex shortcut 7":{
-		"prefix": "dnone",
-		"body": ["display: none;"],
-		"description": "display none"
-	},
-
-	"flex shortcut 8":{
-		"prefix": "bgc",
-		"body": ["background-color: $1;"],
-		"description": "background color"
-	},
-
-	"flex shortcut 9":{
-		"prefix": "pr",
-		"body": ["padding-right: $1;"],
-		"description": "padding right"
-	},
-
-	"flex shortcut 10":{
-		"prefix": "pl",
-		"body": ["padding-left: $1;"],
-		"description": "padding left"
-	},
-
-	"flex shortcut 11":{
-		"prefix": "pt",
-		"body": ["padding-top: $1;"],
-		"description": "padding left"
-	},
-
-	"flex shortcut 12":{
-		"prefix": "pb",
-		"body": ["padding-bottom: $1;"],
-		"description": "padding left"
-	},
-
-	"flex shortcut 13":{
-		"prefix": "mr",
-		"body": ["margin-right: $1;"],
-		"description": "margin right"
-	},
-
-	"flex shortcut 14":{
-		"prefix": "ml",
-		"body": ["margin-left: $1;"],
-		"description": "margin left"
-	},
-
-	"flex shortcut 15":{
-		"prefix": "mt",
-		"body": ["margin-top: $1;"],
-		"description": "margin top"
-	},
-
-	"flex shortcut 16":{
-		"prefix": "mb",
-		"body": ["margin-bottom: $1;"],
-		"description": "margin bottom"
-	},
-
-	"flex shortcut 17":{
-		"prefix": "cp",
-		"body": ["cursor: pointer;"],
-		"description": "cursor pointer"
-	},
-
-	"flex shortcut 18":{
-		"prefix": "media",
-		"body": ["@media only screen and (max-width: $1)"],
-		"description": "media query"
-	},
-
-	"flex shortcut 19":{
-		"prefix": "poabs",
-		"body": ["position: absolute;"],
-		"description": "position absolute"
-	},
-
-	"flex shortcut 20":{
-		"prefix": "porel",
-		"body": ["position: relative;"],
-		"description": "position relative"
-	},
-
-	"flex shortcut 21":{
-		"prefix": "hoover",
-		"body": ["overflow: hidden;"],
-		"description": "overflow hidden"
-	},
+		"flex shortcut 1":{
+			"prefix": "wah",
+			"body":["width: $1;",
+			"height: $2;"],
+			"description": "width and height"
+		},
 	
-	"flex shortcut 22":{
-		"prefix": "sover",
-		"body": ["overflow: scroll;"],
-		"description": "overflow scroll"
-	},
+		"flex shortcut 2":{
+			"prefix": "i am noob",
+			"body": ["align-items: center;",
+			"justify-content: center;"],
+			"description": "kya coder banega re tu!"
+		},
+		
+		"flex shortcut 3":{
+			"prefix": "am i noob",
+			"body": ["display: grid;",
+			"place-items: center;"],
+			"description": "ha! tu sach me noob hi hai"
+		},
+	
+		"flex shortcut 4":{
+			"prefix": "dflex",
+			"body": ["display: flex;"],
+			"description": "display flex"
+		},
+	
+		"flex shortcut 5":{
+			"prefix": "dgrid",
+			"body": ["display: grid;"],
+			"description": "display grid"
+		},
+	
+		"flex shortcut 6":{
+			"prefix": "dblock",
+			"body": ["display: block;"],
+			"description": "display block"
+		},
+	
+		"flex shortcut 7":{
+			"prefix": "dnone",
+			"body": ["display: none;"],
+			"description": "display none"
+		},
+	
+		"flex shortcut 8":{
+			"prefix": "bgc",
+			"body": ["background-color: $1;"],
+			"description": "background color"
+		},
+	
+		"flex shortcut 9":{
+			"prefix": "pr",
+			"body": ["padding-right: $1;"],
+			"description": "padding right"
+		},
+	
+		"flex shortcut 10":{
+			"prefix": "pl",
+			"body": ["padding-left: $1;"],
+			"description": "padding left"
+		},
+	
+		"flex shortcut 11":{
+			"prefix": "pt",
+			"body": ["padding-top: $1;"],
+			"description": "padding left"
+		},
+	
+		"flex shortcut 12":{
+			"prefix": "pb",
+			"body": ["padding-bottom: $1;"],
+			"description": "padding left"
+		},
+	
+		"flex shortcut 13":{
+			"prefix": "mr",
+			"body": ["margin-right: $1;"],
+			"description": "margin right"
+		},
+	
+		"flex shortcut 14":{
+			"prefix": "ml",
+			"body": ["margin-left: $1;"],
+			"description": "margin left"
+		},
+	
+		"flex shortcut 15":{
+			"prefix": "mt",
+			"body": ["margin-top: $1;"],
+			"description": "margin top"
+		},
+	
+		"flex shortcut 16":{
+			"prefix": "mb",
+			"body": ["margin-bottom: $1;"],
+			"description": "margin bottom"
+		},
+	
+		"flex shortcut 17":{
+			"prefix": "cp",
+			"body": ["cursor: pointer;"],
+			"description": "cursor pointer"
+		},
+	
+		"flex shortcut 18":{
+			"prefix": "media",
+			"body": ["@media only screen and (max-width: $1)"],
+			"description": "media query"
+		},
+	
+		"flex shortcut 19":{
+			"prefix": "poabs",
+			"body": ["position: absolute;"],
+			"description": "position absolute"
+		},
+	
+		"flex shortcut 20":{
+			"prefix": "porel",
+			"body": ["position: relative;"],
+			"description": "position relative"
+		},
+	
+		"flex shortcut 21":{
+			"prefix": "hoover",
+			"body": ["overflow: hidden;"],
+			"description": "overflow hidden"
+		},
+		
+		"flex shortcut 22":{
+			"prefix": "sover",
+			"body": ["overflow: scroll;"],
+			"description": "overflow scroll"
+		},
+	
+		"flex shortcut 23":{
+			"prefix": "aover",
+			"body": ["overflow: auto;"],
+			"description": "overflow auto"
+		},
+	
+		"flex shortcut 24":{
+			"prefix": "vover",
+			"body": ["overflow: visible;"],
+			"description": "overflow visible"
+		},
+	
+		"flex shortcut 25":{
+			"prefix": "bd",
+			"body": ["border: $1"],
+			"description": "Sarhad"
+		},
+	
+		"flex shortcut 26":{
+			"prefix": "bt",
+			"body": ["border-top: $1"],
+			"description": "border top"
+		},
+	
+		"flex shortcut 27":{
+			"prefix": "bb",
+			"body": ["border-bottom: $1"],
+			"description": "border bottom"
+		},
+	
+		"flex shortcut 28":{
+			"prefix": "br",
+			"body": ["border-right: $1"],
+			"description": "border right"
+		},
+	
+		"flex shortcut 29":{
+			"prefix": "bl",
+			"body": ["border-left: $1"],
+			"description": "border left"
+		},
+	
+		"flex shortcut 30":{
+			"prefix": "",
+			"body": [""],
+			"description": ""
+		},
 
-	"flex shortcut 23":{
-		"prefix": "aover",
-		"body": ["overflow: auto;"],
-		"description": "overflow auto"
-	},
+		"flex shortcut 31":{
+			"prefix": "",
+			"body": [""],
+			"description": ""
+		},
 
-	"flex shortcut 24":{
-		"prefix": "vover",
-		"body": ["overflow: visible;"],
-		"description": "overflow visible"
-	},
+		"flex shortcut 32":{
+			"prefix": "",
+			"body": [""],
+			"description": ""
+		},
 
-	"flex shortcut 25":{
-		"prefix": "",
-		"body": [""],
-		"description": ""
-	},
+		"flex shortcut 33":{
+			"prefix": "",
+			"body": [""],
+			"description": ""
+		},
 
-	"flex shortcut 26":{
-		"prefix": "",
-		"body": [""],
-		"description": ""
-	},
+		"flex shortcut 34":{
+			"prefix": "",
+			"body": [""],
+			"description": ""
+		},
 
-	"flex shortcut 27":{
-		"prefix": "",
-		"body": [""],
-		"description": ""
-	},
+		"flex shortcut 35":{
+			"prefix": "",
+			"body": [""],
+			"description": ""
+		},
 
-	"flex shortcut 28":{
-		"prefix": "",
-		"body": [""],
-		"description": ""
-	},
+		"flex shortcut 36":{
+			"prefix": "",
+			"body": [""],
+			"description": ""
+		},
 
-	"flex shortcut 29":{
-		"prefix": "",
-		"body": [""],
-		"description": ""
-	},
+		"flex shortcut 37":{
+			"prefix": "",
+			"body": [""],
+			"description": ""
+		},
 
-	"flex shortcut 30":{
-		"prefix": "",
-		"body": [""],
-		"description": ""
-	}
+		"flex shortcut 38":{
+			"prefix": "",
+			"body": [""],
+			"description": ""
+		},
 
+		"flex shortcut 39":{
+			"prefix": "",
+			"body": [""],
+			"description": ""
+		},
+
+		"flex shortcut 40":{
+			"prefix": "",
+			"body": [""],
+			"description": ""
+		},
+	
 }

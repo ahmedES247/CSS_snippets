@@ -1,9 +1,16 @@
-*{
-    margin: 0;
+*{                 
+    margin: 0;      /* only i have to type "map" and hit enter then this whole block will be written automatically*/
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+.img{             /* i have to write type "wah" and hit enter then width and height property will be written automatically */   
+    width: 100px;
+    height: 100px;
+}
+
+/* ----------   we can create css snippets, so we can write repeative properties, so we can save time ---------------- */
 
 .text{
     margin-top: 100px;
